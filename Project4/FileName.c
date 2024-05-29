@@ -17,7 +17,7 @@ double g(double x[], int d) {
 }
 
 int main() {
-    srand((unsigned int)time(NULL)); // Casting time_t to unsigned int to silence warning
+    srand((unsigned int)time(NULL));
     double t = 0;
     double* dW = (double*)malloc(sizeof(double) * D * M);
     if (dW == NULL) {
